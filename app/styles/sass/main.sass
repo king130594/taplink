@@ -1,2 +1,83 @@
 @import config
 @import 'blocks/**/*'
+
+.background
+    background-image: url(../images/pat1.png)
+    background-size: 100% 100% 
+.container
+    margin: auto
+    .logo
+        margin-left: 520px
+        padding-top: 50px
+        padding-bottom: 30px
+
+.links
+    margin-left: 300px
+    .button
+        width: 600px
+        background-color: #01628C
+        margin-top: 20px
+        text-align: center
+        padding-top: 10px
+        padding-bottom: 10px
+        a
+            color: #fff
+            text-decoration: none
+            text-transform: uppercase
+            text-align: center
+            font-size: 20px
+.links-msg
+     margin-left: 300px
+     margin-top: 60px
+     padding-bottom: 100px
+     .button-app
+        width: 600px
+        background-color: #43D854
+        margin-top: 30px
+        text-align: center
+        padding-top: 10px
+        padding-bottom: 10px
+        a
+            color: #fff
+            text-decoration: none
+            text-transform: uppercase
+            text-align: center
+            font-size: 20px  
+     .button-telegram
+        width: 600px
+        background-color: #0088CC
+        margin-top: 20px
+        text-align: center
+        padding-top: 10px
+        padding-bottom: 10px
+        a
+            color: #fff
+            text-decoration: none
+            text-transform: uppercase
+            text-align: center
+            font-size: 20px
+
+@media screen and ( max-width: 425px)
+    .background
+        background-image: url(../images/mob1.png)
+    .container
+        width: 100%
+        flex-flow: row wrap
+        .logo
+            margin-left: 30%
+    .links
+        margin-left: 1%
+        .button
+            width: 95%
+            margin-left: 10px
+            margin-right: 10px
+    .links-msg
+        margin-left: 10px
+        .button-app
+            width: 95%
+            margin-left: 10px
+            margin-right: 10px
+        .button-telegram
+            width: 95%
+            margin-left: 10px
+            margin-right: 10px     
